@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
 	
 	wrefresh(window);
 	while(comienza > 0){
-		mvwprintw(window, 16, 3, "El juego comenzará en %i segundos ",comienza);
+		mvwprintw(window, 16, 20, "El juego comenzará en %i segundos ",comienza);
 		sleep(1);
 		comienza--;
 		wrefresh(window);

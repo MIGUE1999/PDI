@@ -65,7 +65,7 @@ void dibuja_ventana_bienvenida(){
 	mvwprintw(window, 13, 3, "Pulsa la barra espaciadora para sacar nueva bola al haber colado gol");
 	
 	wrefresh(window);
-/*
+
 	while(comienza > 0){
 		
 		mvwprintw(window, 16, 20, "El juego comenzará en %i segundos", comienza);
@@ -74,7 +74,7 @@ void dibuja_ventana_bienvenida(){
 		wrefresh(window);
 		
 	}
-*/	 
+	 
     endwin();
 	
 }

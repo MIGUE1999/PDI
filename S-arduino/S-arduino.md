@@ -11,12 +11,12 @@ Para la creación del circuito he colocado en cada parte positiva de cada led un
 
 En la función setup() defino el pin 13 y el 12 como OUTPUTS. En la función loop() fijo a LOW el pin 12(LED verde apagado), fijo el pin 13 a HIGH(LED rojo encendido) espero 1,5 segundos, apago el LED rojo 13(LOW) y enciendo el LED verde(HIGH). Vuelvo a esperar 1.5 segundos al final.
 
-![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/blob/main/S1/ejecucion.png)
+![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/tree/main/S-arduino/Multimedia/Captura de pantalla de 2021-04-22 12-11-23.png)
 
 
 **Funcionamiento**
 
-![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/blob/main/S1/ejecucion.png)
+![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/tree/main/S-arduino/Multimedia/Captura de pantalla de 2021-04-22 12-25-21.png)
 
 
 
@@ -33,9 +33,9 @@ Para la creación del circuito he colocado en cada parte positiva del led una re
 
 En el código fijo el pin 13 como de salida y el 7 de entrada en la función setup(). En loop() compruebo si el pulsador está siendo pulsado y si es así enciendo el led poniendo a HIGH el pin 13. Si esto no ocurre dejo el LED apagado poniendo en LOW el pin 13.
 
-![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/blob/main/S1/ejecucion.png)
+![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/tree/main/S-arduino/Multimedia/Videograbación 2021-04-22 12:12:38.mp4)
 
 
 **Funcionamiento**
 
-![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/blob/main/S1/ejecucion.png)
+![imagen de la ejecucion](https://github.com/MIGUE1999/PDIH/tree/main/S-arduino/Multimedia/Videograbación 2021-04-22 12:26:09.mp4)

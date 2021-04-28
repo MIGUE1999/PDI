@@ -3,7 +3,7 @@ int sensorState = 0;
 void setup()
 {
   pinMode(13, OUTPUT);
-  pinMode(13, INPUT);
+  pinMode(2, INPUT);
 
 }
 

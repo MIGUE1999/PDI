@@ -2,7 +2,17 @@
 
 ### Ejercicio 1
 
-Para este ejercicio he usado 2 LED(uno rojo y otro verde), 2 resistencias(220 ohmios cada una), una placa de pruebas pequeña y un arduino Uno R3.
+#### Materiales
+
+- 2 LED(uno rojo y otro verde)
+
+- 2 resistencias(220 ohmios cada una) 
+
+- Placa de pruebas pequeña
+
+- Arduino Uno R3.
+
+#### Explicación
 
 Para la creación del circuito he colocado en cada parte positiva de cada led una resistencia por su parte positiva, la parte negativa de las resistencias están conectadas a los pines 13(LED verde) y 12(LED verde). La parte negativa de los LED estan conectadas a tierra a tierra.
 
@@ -24,7 +34,15 @@ En la función setup() defino el pin 13 y el 12 como OUTPUTS. En la función loo
 
 ### Ejercicio 2
 
-Para este ejercicio he usado 1 LED(rojo), 2 resistencias(10 Kiloohmios y 220 ohmios), un pulsador, una placa de pruebas pequeña y un arduino Uno R3.
+#### Materiales
+
+- 1 LED(rojo) 
+- 2 resistencias(10 Kiloohmios y 220 ohmios)
+- pulsador 
+- Placa de pruebas pequeña 
+- Arduino Uno R3.
+
+#### Explicación
 
 Para la creación del circuito he colocado en cada parte positiva del led una resistencia (220 ohmios), la otra parte de la resistencia está conectada al pin 13. La parte negativa del LED está conectada a tierra. Por otra parte el pulsador está conectado a tierra, al pin 7 y a una resistencia(10 Kiloohmios) que a su vez esta conectada al pin de 5V del la placa. Esta sirve como resistencia de pull-up que hace que cuando no se esté pulsando el pulsador se quede en un estado alto(presencia de voltaje).
 

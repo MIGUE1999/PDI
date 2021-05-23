@@ -1,6 +1,6 @@
 ## SEMINARIO LKM
 
-Para el entendimiento de los LKM he creado un ejemplo sencillo en el cual se muestra en los logs del kernel el nombre de la funcion a la que llama al realizar la carga y la descarga del módulo.
+Para el entendimiento de los LKM he creado un ejemplo sencillo en el cual se muestra en los logs del kernel el nombre de la función a la que llama al realizar la carga y la descarga del módulo.
 
 **Código**
 
@@ -40,9 +40,7 @@ Para el entendimiento de los LKM he creado un ejemplo sencillo en el cual se mue
 
 ```
 
-
-
-Compilo el código con un makefile
+Compilo el código con un makefile.
 
 **Código Makefile**
 
@@ -57,19 +55,18 @@ Compilo el código con un makefile
 ![Imagen compilacion](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-05-15.png)
 
 
-Cargo y elimino el codigo con los dos siguientes comandos mostrados en la foto
+Cargo y elimino el código con los dos siguientes comandos mostrados en la foto.
 
 
 ![Imagen carga y descarga modulo](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-14-00.png)
 
 
 
-
-Compruebo los logs del kernel(comando tail) para ver si se han realizado las funciones correspondientes a la carga(insmod) y descarga del modulo(rmmod)
+Compruebo los logs del kernel(comando tail) para ver si se han realizado las funciones correspondientes a la carga(insmod) y descarga del modulo(rmmod).
 
 ![Imagen Comprobacion](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-15-06.png)
 
-Como podemos ver nos muestra en los logs dentro de que funcion está dependiendo de si se carga o si se descarga el modulo.
+Como podemos ver nos muestra en los logs dentro de que funcion está dependiendo de si se carga o si se descarga el módulo.
 
 
 

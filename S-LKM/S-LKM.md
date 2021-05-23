@@ -69,7 +69,7 @@ Compruebo los logs del kernel(comando tail) para ver si se han realizado las fun
 
 ![Imagen Comprobacion](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-15-06.png)
 
-
+Como podemos ver nos muestra en los logs dentro de que funcion está dependiendo de si se carga o si se descarga el modulo.
 
 
 

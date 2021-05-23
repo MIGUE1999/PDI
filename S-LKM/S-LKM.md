@@ -58,11 +58,11 @@ Compilo el código con un makefile
 Cargo y elimino el codigo con los dos siguientes comandos mostrados en la foto
 
 
-![Imagen carga y descarga modulo](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura de pantalla de 2021-05-23 16-14-00.png)
+![Imagen carga y descarga modulo](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-14-00.png)
 
-Compruebo los logs del kernel para ver si se han realizado las funciones correspondientes a la carga(insmod) y descaraga del modulo(rmmod)
+Compruebo los logs del kernel(comando tail) para ver si se han realizado las funciones correspondientes a la carga(insmod) y descaraga del modulo(rmmod)
 
-![Imagen Comprobacion](https://github.com/MIGUE1999/PDIH/blob/main/S-arduino/Multimedia/Captura de pantalla de 2021-05-23 16-15-06.png)
+![Imagen Comprobacion](https://github.com/MIGUE1999/PDIH/blob/main/S-LKM/Multimedia/Captura%20de%20pantalla%20de%202021-05-23%2016-15-06.png)
 
 
 

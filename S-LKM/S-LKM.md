@@ -46,14 +46,14 @@ Compilo el código con un makefile
 
 **Código Makefile**
 
-'''
-obj-m+=hello.o
 
-all:
-	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
-clean: 
-	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) clean	
-'''
+	obj-m+=hello.o
+
+	all:
+		make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
+	clean: 
+		make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) clean	
+
 
 Cargo y elimino el codigo con los dos siguientes comandos mostrados en la foto
 

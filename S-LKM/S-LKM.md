@@ -38,9 +38,9 @@ module_init(inside_function_init);
 module_exit(inside_function_exit);
 
 
+```
 
 
-'''
 
 Compilo el código con un makefile
 
